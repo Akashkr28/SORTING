@@ -17,7 +17,9 @@ public class selectionSort {
 public static int findMinElement(int[] arr, int i) {
     int min_el_idx = i;
     for(int j = i + 1; j < arr.length; j++){
-        min_el_idx = j;
+        if(arr[j] < arr[min_el_idx]) {
+            min_el_idx = j;
+        }
     }
     return min_el_idx;
 }
