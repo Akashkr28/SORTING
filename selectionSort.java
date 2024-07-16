@@ -1,10 +1,9 @@
-import java.util.*;
 
 public class selectionSort {
 
     public static void selectionsort(int[] arr) {
         for(int i = 0; i < arr.length - 1; i++) {
-            int min_idx = findMinELement(arr, i);
+            int min_idx = findMinElement(arr, i);
             if(min_idx != i) {
                 int temp = arr[min_idx];
                 arr[min_idx] = arr[i];
