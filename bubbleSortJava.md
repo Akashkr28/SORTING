@@ -1,4 +1,4 @@
-# bubbleSort --> Time and Space Complexity (Using Java)
+# BUBBLESORT --> Time and Space Complexity (Using Java)
 
 Let's break down the time and space complexity of the given Java code for the bubble sort algorithm.
 
